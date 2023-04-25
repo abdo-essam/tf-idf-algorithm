@@ -1,6 +1,9 @@
 # tf-idf-algorithm
 Implementation of the tf-idf algorithm to calculate the similarity between documents using cosine similarity.
 
+# Faculty Of Computer And Artificial Intelligence Cairo University `FCAI-CU`
+## Information Retrieval Assignment
+
 The TfIdf class contains methods to calculate term frequency (tf) and inverse document frequency (idf). The tfCalculator method takes an array of all the words in a document and a term to check as input and returns the term frequency of the term in the document. The idfCalculator method takes a list of arrays, each containing all the words in a document and a term to check as input and returns the inverse document frequency score of the term across all the documents.
 
 The CosineSimilarity class has a method cosineSimilarity to calculate the cosine similarity between two document vectors. It takes two document vectors as input, calculates the dot product, magnitude of each vector, and returns the cosine similarity score.
